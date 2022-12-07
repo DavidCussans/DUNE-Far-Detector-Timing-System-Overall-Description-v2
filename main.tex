@@ -1,0 +1,40 @@
+\documentclass{dune}
+\usepackage[utf8]{inputenc}
+%\usepackage{lineno}
+\usepackage{graphicx}
+%\usepackage{xcolor}
+
+\usepackage{subfiles} 
+
+\usepackage{float}
+
+\usepackage{xspace}
+
+% if we aren't using the DUNE class then we need the packages...
+%\usepackage{siunitx}
+% end of packages included instead of using DUNE
+
+\input{units.tex}
+\usepackage[hidelinks]{hyperref}
+\input{defs.tex}
+\input{glossary.tex}
+
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+
+\title{The DUNE Timing System  Design}
+\author{J. Brooke, D. Cussans, S. Paramesvaran, S. Trilov}
+\date{v2 - December 2022}
+
+\begin{document}
+\linenumbers
+\maketitle
+
+\tableofcontents
+
+\subfile{design_timing.tex}
+
+\printglossary
+\printbibliography
+
+\end{document}
