@@ -359,7 +359,7 @@ span a contiguous period of time as requested by a \gls{trigcommand}}
 
 %front-end mother board
 \newduneabbrev{femb}{FEMB}{front-end mother board}{Refers a unit of
-  the \gls{sp} cold electronics that contains the front-end amplifier
+  the \gls{hd} TPC cold electronics that contains the front-end amplifier
   and ADC ASICs covering 128 channels}
 
 %application-specific integrated circuit
@@ -480,7 +480,7 @@ span a contiguous period of time as requested by a \gls{trigcommand}}
 \newduneabbrev{mch}{MCH}{$\mu$TCA Carrier Hub}{uTCA crate controller} 
 
 %\newduneabbrev{eti}{ETI}{External Trigger Interface}{Units receiving external signals into the \dword{spdts}}
-\newduneabbrev{hsi}{HSI}{Hardware Signal Interface}{Units receiving external signals into the \dword{spdts}}
+\newduneabbrev{hsi}{HSI}{Hardware Signal Interface}{Units receiving external signals into the \dword{dts}}
 
 \newduneabbrev{gpsdo}{GPSDO}{GPS Disciplined Oscillator}{A crystal oscillator steered by GPS}
 
@@ -494,9 +494,8 @@ span a contiguous period of time as requested by a \gls{trigcommand}}
 
 %warm interface board
 \newduneabbrev{wib}{WIB}{warm interface board}{Digital electronics
-  situated just outside the \single cryostat that receives digital data
-  from the FEMBs over cold copper connections and sends it to the RCE
-  FE readout hardware}
+  situated just outside the cryostat that receives digital data
+  from the \dwords{femb} over cold copper connections and sends it to the data acquisition system.}
 
 %network interfce controller
 \newduneabbrev{nic}{NIC}{network interface controller}{Hardware for controlling the interface to a communication network.  Typically, one that obeys the Ethernet protocol}
