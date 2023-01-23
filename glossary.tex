@@ -894,7 +894,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 \newduneabbrev{pdsp2}{ProtoDUNE SP II}{ProtoDUNE Single Phase II}{The second phase of the ProtoDUNE Single Phase experiment at CERN.}
 
-\newduneabbrev{dts}{DTS}{Dune Timing System}{The timing and synchronization system for DUNE. An umbrella term encompassing both the \single and \dual detector module timing systems}
+\newduneabbrev{dts}{DTS}{Dune Timing System}{The timing and synchronization system for DUNE. An umbrella term encompassing both the \gls{hd} and \gls{vd} detector module timing systems}
 
 \newduneabbrev{spts}{SPTS}{Single Phase Timing System}{A timing and synchronization system deployed at ProtoDUNE SP I. It distributes a clock and synchronization signals, but places considerably less burden on the end-points.}
 
@@ -971,3 +971,9 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 \newduneword{fss}{FSS}{field shaping strips}
 \newduneword{lvds}{LVDS}{low-voltage differential signaling}
+
+\newduneword{ipbus}{IPBus}{IPBus UDP/IP based control bus. Firmware library that provides an A32/D32 bus inside the FPGA and software library to control from a PC.}
+
+
+\newduneabbrev{dtsep}{endpoint}{DUNE Timing System Endpoint}{A point at which the \gls{dts} delivers timing and synchronization information. Timestamps and synchronization messages are delivered by a firmware block inside an FPGA. The phase aligned clock can either be delivered by a clock management unit inside an FPGA or by a PLL based clock generator.}
+
